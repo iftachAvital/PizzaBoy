@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iftach.pizzaboy.NewDeliveryActivity">
+
+    <item
+        android:id="@+id/action_refresh_location"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:orderInCategory="2"
+        android:title="@string/action_refresh_location"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_stop_location"
+        android:icon="@drawable/ic_action_rewind"
+        android:orderInCategory="1"
+        android:title="@string/action_stop_location"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_get_location_by_address"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:orderInCategory="3"
+        android:title="@string/action_get_location_by_address"
+        app:showAsAction="ifRoom" />
+
+</menu>

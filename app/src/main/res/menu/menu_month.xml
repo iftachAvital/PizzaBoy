@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iftach.pizzaboy.MonthActivity">
+
+    <item
+        android:id="@+id/action_month_statistics"
+        android:orderInCategory="3"
+        android:title="@string/action_main_statistics"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_month_start_shift"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="4"
+        android:title="@string/new_shift"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_month_resume_shift"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="4"
+        android:visible="false"
+        android:title="@string/resume_shift"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_month_settings"
+        android:orderInCategory="3"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_month_change_date"
+        android:icon="@android:drawable/ic_menu_today"
+        android:orderInCategory="1"
+        android:title="@string/action_main_change_date"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_month_sign_out"
+        android:orderInCategory="1"
+        android:title="@string/sign_out"
+        app:showAsAction="never" />
+</menu>

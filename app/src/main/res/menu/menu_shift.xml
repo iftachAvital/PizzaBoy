@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iftach.pizzaboy.ShiftActivity">
+    <item
+        android:id="@+id/action_shift_settings"
+        android:orderInCategory="2"
+        android:title="@string/action_shift_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_shift_end_shift"
+        android:orderInCategory="5"
+        android:title="@string/action_end_shift"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_shift_map"
+        android:title="@string/map"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_shift_statistics"
+        android:orderInCategory="3"
+        android:title="@string/action_shift_statistics"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_shift_new_delivery"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="1"
+        android:title="@string/action_new_delivery"
+        app:showAsAction="ifRoom" />
+</menu>

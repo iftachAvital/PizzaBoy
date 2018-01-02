@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.iftach.pizzaboy.StatisticsActivity">
+
+    <item
+        android:id="@+id/action_statistics_clear"
+        android:orderInCategory="100"
+        android:title="@string/action_statistics_clear"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_statistics_day_vs_tip_per_hour"
+        android:orderInCategory="100"
+        android:title="@string/action_statistics_day_vs_tip_per_hour"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_statistics_day_vs_average_tip"
+        android:orderInCategory="100"
+        android:title="@string/action_statistics_day_vs_average_tip"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_statistics_days_hour_vs_deliveries"
+        android:orderInCategory="100"
+        android:title="@string/action_statistics_day_vs_deliveries_per_hour"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_statistics_days_hour_vs_tip"
+        android:orderInCategory="100"
+        android:title="@string/action_statistics_day_vs_tips_per_hour"
+        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_statistics_distance_vs_tip"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_statistics_distance_vs_tip"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_statistics_cost_vs_tip"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_statistics_cost_vs_tip"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_statistics_heatmap"
+        android:orderInCategory="100"
+        android:title="@string/action_statistics_heatmap"
+        app:showAsAction="never" />
+</menu>
