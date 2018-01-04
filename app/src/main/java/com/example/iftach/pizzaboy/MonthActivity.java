@@ -1,6 +1,5 @@
 package com.example.iftach.pizzaboy;
 
-import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -304,10 +303,8 @@ public class MonthActivity extends AppCompatActivity implements DatePickerDialog
         loadShifts();
     }
 
-    @SuppressLint("ValidFragment")
-    private class MonthYearPickerDialog extends DialogFragment {
+    public static class MonthYearPickerDialog extends DialogFragment {
 
-        private static final int MAX_YEAR = 2099;
         private DatePickerDialog.OnDateSetListener listener;
 
         public void setListener(DatePickerDialog.OnDateSetListener listener) {
